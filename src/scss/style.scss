@@ -2,16 +2,24 @@ $bgColor: #24292e;
 $text: #fff;
 
 @font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
+  font-family: "Comic";
+  src: url("../fonts/comic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
-body {
+.body {
   padding: 1rem;
   margin: 0;
   font-family: Comic, sans-serif;
   background-color: $bgColor;
   color: $text;
+
+  .body__content {
+    display: flex;
+  }
 }
+
+@import "./blocks/header.scss";
+@import "./blocks/wrap-nav.scss";
+@import "./blocks/wrap-reclam.scss";
