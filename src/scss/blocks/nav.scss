@@ -12,12 +12,11 @@
     list-style-type: none;
   }
 
-  .nav__button,
-  .nav__button--type {
+  .nav__button {
     font: inherit;
     color: inherit;
     background-color: transparent;
     width: 100%;
-    height: 55px;
+    height: 100%;
   }
 }
