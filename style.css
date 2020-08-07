@@ -1,15 +1,37 @@
 @font-face {
-  font-family: 'Comic';
+  font-family: "Comic";
   src: url(./fonts/comic.ttf) format("truetype");
   font-weight: normal;
   font-style: italic; }
 
-body {
+.body {
   padding: 1rem;
   margin: 0;
   font-family: Comic, sans-serif;
   background-color: #24292e;
   color: #fff; }
+  .body .body__content {
+    display: flex; }
+
+.header {
+  display: flex; }
+
+.wrap-nav {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  height: 100vh;
+  border: 1px solid gold;
+  padding: 1% 2%; }
+
+.wrap-reclam {
+  display: flex;
+  border: 1px solid gold;
+  justify-content: center;
+  width: 100%; }
+  .wrap-reclam .wrap-reclam__text {
+    font-size: 40px;
+    line-height: 50px; }
 
 
 /*# sourceMappingURL=style.css.map*/
