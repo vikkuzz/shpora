@@ -1,0 +1,11 @@
+.wrap-reclam {
+  display: flex;
+  border: 1px solid gold;
+  justify-content: center;
+  width: 100%;
+
+  .wrap-reclam__text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
