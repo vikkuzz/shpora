@@ -43,6 +43,7 @@
     line-height: 50px; }
 
 .nav {
+  display: flex;
   background: #334533;
   padding-bottom: 10px;
   border-radius: 2px;
@@ -52,10 +53,13 @@
   text-decoration: none; }
   .nav .nav__item {
     list-style-type: none; }
-  .nav .nav__button {
+  .nav .nav__button,
+  .nav .nav__button--type {
     font: inherit;
     color: inherit;
-    background-color: transparent; }
+    background-color: transparent;
+    width: 100%;
+    height: 55px; }
 
 .conspect {
   margin-top: 25px; }
