@@ -14,7 +14,8 @@
     display: flex; }
 
 .header {
-  display: flex; }
+  display: flex;
+  padding-bottom: 16px; }
 
 .wrap-nav {
   display: flex;
