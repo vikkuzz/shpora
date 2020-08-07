@@ -12,14 +12,119 @@
     </header>
     <section class="body__content">
       <div class="wrap-nav">
-        <h3>Welcome to Shpora))</h3>
+        <h2>Welcome to Shpora))</h2>
         <ul class="nav">
-          Это о html
+          <h3>Это о html</h3>
           <li class="nav__item">первый пунктик</li>
+        </ul>
+        <ul class="nav">
+          <h3>Это о CSS</h3>
+          <li class="nav__item">первый пунктик</li>
+        </ul>
+        <ul class="nav">
+          <h3>Это о джс</h3>
+          <li class="nav__item">
+            <button class="nav__button">Типы данных, приведение типов</button>
+          </li>
+          <li class="nav__item">Хранение чисел, неточные вычисления</li>
+          <li class="nav__item">Ошибки</li>
+          <li class="nav__item">Рекурсия</li>
+          <li class="nav__item">Замыкания и область видимости</li>
+          <li class="nav__item">Различия var/let/const, hoisting</li>
+          <li class="nav__item">Чистые функции. Побочные эффекты.</li>
+          <li class="nav__item">Значения по умолчанию</li>
+          <li class="nav__item">Функции высшего порядка</li>
+          <li class="nav__item">Отличия стрелочных функций от обычных</li>
+          <li class="nav__item">map / filter / reduce</li>
         </ul>
       </div>
       <div class="wrap-reclam">
-        <span class="wrap-reclam__text">Сюда бы дорогущую рекламу</span>
+        <span class="wrap-reclam__text">Сюда бы дорогущую рекламу, но...</span>
+        <span class="conspect">
+          <span class="conspect__text">
+            <pre>
+В JavaScript есть 8 основных типов.
+
+<font color="tomato">number</font> для любых чисел: целочисленных или чисел с плавающей точкой, целочисленные значения ограничены диапазоном ±253.
+<font color="tomato">bigint</font> для целых чисел произвольной длины.
+<font color="tomato">string</font> для строк. Строка может содержать один или больше символов, нет отдельного символьного типа.
+<font color="tomato">boolean</font> для true/false.
+<font color="tomato">null</font> для неизвестных значений – отдельный тип, имеющий одно значение null.
+<font color="tomato">undefined</font> для неприсвоенных значений – отдельный тип, имеющий одно значение undefined.
+<font color="tomato">object</font> для более сложных структур данных.
+<font color="tomato">symbol</font> для уникальных идентификаторов.
+
+Оператор typeof позволяет нам увидеть, какой тип данных сохранён в переменной.
+Имеет две формы: typeof x или typeof(x).
+Возвращает строку с именем типа. Например, "string".
+Для null возвращается "object" – это ошибка в языке, на самом деле это не объект.
+
+// Числа
+typeof 37 === 'number';
+typeof 3.14 === 'number';
+typeof(42) === 'number';
+typeof Math.LN2 === 'number';
+typeof Infinity === 'number';
+typeof NaN === 'number'; // несмотря на то, что это "Not-A-Number" (не число)
+typeof Number(1) === 'number'; // никогда не используйте эту запись!
+
+
+// Строки
+typeof '' === 'string';
+typeof 'bla' === 'string';
+typeof '1' === 'string'; // обратите внимание, что число внутри строки всё равно имеет тип строки
+typeof (typeof 1) === 'string'; // typeof всегда вернёт в этом случае строку
+typeof String('abc') === 'string'; // никогда не используйте эту запись!
+
+
+// Booleans
+typeof true === 'boolean';
+typeof false === 'boolean';
+typeof Boolean(true) === 'boolean'; // никогда не используйте эту запись!
+
+
+// Символы
+typeof Symbol() === 'symbol'
+typeof Symbol('foo') === 'symbol'
+typeof Symbol.iterator === 'symbol'
+
+
+// Undefined
+typeof undefined === 'undefined';
+typeof declaredButUndefinedVariable === 'undefined';
+typeof undeclaredVariable === 'undefined';
+
+
+// Объекты
+typeof {a: 1} === 'object';
+
+// используйте Array.isArray или Object.prototype.toString.call
+// чтобы различить обычные объекты и массивы
+typeof [1, 2, 4] === 'object';
+
+typeof new Date() === 'object';
+
+
+// То что ниже приводит к ошибкам и проблемам. Не используйте!
+typeof new Boolean(true) === 'object';
+typeof new Number(1) === 'object';
+typeof new String('abc') === 'object';
+
+
+// Функции
+typeof function() {} === 'function';
+typeof class C {} === 'function';
+typeof Math.sin === 'function';
+
+
+// Это было определено с рождения JavaScript
+typeof null === 'object';
+
+
+<a href="https://learn.javascript.ru/types" class="body__a">https://learn.javascript.ru/types</a>
+        </pre>
+          </span>
+        </span>
       </div>
     </section>
   <script type="text/javascript" src="./js/bundle.js"></script></body>

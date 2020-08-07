@@ -11,7 +11,11 @@
   background-color: #24292e;
   color: #fff; }
   .body .body__content {
-    display: flex; }
+    display: flex;
+    background-color: #1a1c1f; }
+  .body .body__a {
+    text-decoration: none;
+    color: gold; }
 
 .header {
   display: flex;
@@ -21,18 +25,42 @@
   display: flex;
   width: 25%;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   border: 1px solid gold;
+  border-radius: 5px;
   padding: 1% 2%; }
 
 .wrap-reclam {
   display: flex;
+  flex-direction: column;
   border: 1px solid gold;
-  justify-content: center;
-  width: 100%; }
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 20px; }
   .wrap-reclam .wrap-reclam__text {
     font-size: 40px;
     line-height: 50px; }
+
+.nav {
+  background: #334533;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  text-decoration: none; }
+  .nav .nav__item {
+    list-style-type: none; }
+  .nav .nav__button {
+    font: inherit;
+    color: inherit;
+    background-color: transparent; }
+
+.conspect {
+  margin-top: 25px; }
+  .conspect .conspect__text {
+    display: none; }
 
 
 /*# sourceMappingURL=style.css.map*/
