@@ -1,0 +1,19 @@
+.nav {
+  background: #334533;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+  text-decoration: none;
+
+  .nav__item {
+    list-style-type: none;
+  }
+
+  .nav__button {
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+  }
+}

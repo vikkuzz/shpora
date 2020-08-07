@@ -1,4 +1,5 @@
 $bgColor: #24292e;
+$bgColorContent: #1a1c1f;
 $text: #fff;
 
 @font-face {
@@ -17,9 +18,17 @@ $text: #fff;
 
   .body__content {
     display: flex;
+    background-color: $bgColorContent;
+  }
+
+  .body__a {
+    text-decoration: none;
+    color: gold;
   }
 }
 
 @import "./blocks/header.scss";
 @import "./blocks/wrap-nav.scss";
 @import "./blocks/wrap-reclam.scss";
+@import "./blocks/nav.scss";
+@import "./blocks/conspect.scss";
