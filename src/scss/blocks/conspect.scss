@@ -1,7 +1,10 @@
 .conspect {
   margin-top: 25px;
 
-  .conspect__text {
+  .conspect__text--type {
+    display: none;
+  }
+  .conspect__text--perem {
     display: none;
   }
 }
