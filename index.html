@@ -47,8 +47,8 @@
             <button class="nav__button">Замыкания и область видимости</button>
           </li>
           <li class="nav__item">
-            <button class="nav__button">
-              Различия var/let/const, hoisting
+            <button class="nav__button nav__button--perem">
+              Различия var/let/const
             </button>
           </li>
           <li class="nav__item">
@@ -75,7 +75,7 @@
       <div class="wrap-reclam">
         <span class="wrap-reclam__text">Сюда бы дорогущую рекламу, но...</span>
         <span class="conspect">
-          <span class="conspect__text">
+          <span class="conspect__text--type">
             <pre>
 В JavaScript есть 8 основных типов.
 
@@ -155,8 +155,19 @@ typeof Math.sin === 'function';
 typeof null === 'object';
 
 
-<a href="https://learn.javascript.ru/types" class="body__a">https://learn.javascript.ru/types</a>
+<a href="https://learn.javascript.ru/types" class="body__a">learn.javascript.ru/types</a>
+<a href="https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Operators/typeof" class="body__a">developer.mozilla.org</a>
         </pre>
+          </span>
+          <span class="conspect__text--perem">
+            <pre>
+Мы можем объявить переменные для хранения данных с помощью ключевых слов var, let или const.
+
+let – это современный способ объявления.
+var – это устаревший способ объявления. Обычно мы вообще не используем его.
+const – похоже на let, но значение переменной не может изменяться.
+Переменные должны быть названы таким образом, чтобы мы могли легко понять, что у них внутри.
+          </pre>
           </span>
         </span>
       </div>

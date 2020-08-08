@@ -62,7 +62,9 @@
 
 .conspect {
   margin-top: 25px; }
-  .conspect .conspect__text {
+  .conspect .conspect__text--type {
+    display: none; }
+  .conspect .conspect__text--perem {
     display: none; }
 
 
